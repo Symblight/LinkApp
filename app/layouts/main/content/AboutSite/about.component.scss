@@ -1,0 +1,90 @@
+.container-logo{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo-service{
+		width: 15rem;
+		height: 15rem;
+}
+
+.service-content{
+	max-width: 18rem;
+	overflow: hidden;
+}
+
+.element-service{
+	margin-bottom: 5rem;
+	min-width: 18rem;
+	justify-content: center;
+}
+
+@media screen and(min-width:  1280px){
+	.container-logo{
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+}
+
+@media screen and(min-width:  920px)and (max-width : 1280px){
+	.logo-service{
+		width: 13rem;
+		height: 13rem;
+	},
+	.container-logo{
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+}
+
+@media screen and(min-width:  680px) and (max-width: 920px){
+	.logo-service{
+		width: 10rem;
+		height: 10rem;
+	},
+	.container-logo{
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+}
+
+@media screen and(min-width:  480px) and (max-width: 680px){
+	.logo-service{
+		width: 8rem;
+		height: 8rem;
+	},
+	.element-service{
+		width: 100%;
+		padding-left: 5vw;
+    	padding-right: 5vw;
+    	border-bottom: 1px solid #EEEEEE;
+    	padding-bottom: 2vh; 
+	},
+	.service-content{
+		max-width: 100%;
+		overflow: hidden;
+	}
+
+}
+
+@media screen and(max-width: 480px){
+	.logo-service{
+		width: 6rem;
+		height: 6rem;
+	},
+	.element-service{
+		width: 100%;
+		padding-left: 5vw;
+    	padding-right: 5vw;
+    	border-bottom: 1px solid #EEEEEE; 
+    	padding-bottom: 2vh;
+	},
+	.service-content{
+		max-width: 100%;
+		overflow: hidden;
+	},
+	.text-content{
+		
+	}
+}

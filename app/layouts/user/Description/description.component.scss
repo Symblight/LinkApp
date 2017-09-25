@@ -1,0 +1,24 @@
+.description-l{
+	margin: 15px;
+}
+
+@media screen and(max-width: 600px){
+		.description-l{
+			    transition: left .25s linear;
+			    -webkit-transition: left .25s linear;
+			    -moz-transition: left .25s linear;
+			    position: fixed;
+			    left: 100%;
+			    width: 0;
+			    padding: 0;
+			    z-index: 40;
+			    max-height: 100vh;
+			    overflow-y: auto;
+			    margin: 15px;
+		}
+}
+
+.not-change{
+	width: 100%;
+	margin: 0 auto;
+}

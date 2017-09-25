@@ -1,0 +1,46 @@
+.content-block{
+	background-color: #fff;
+	min-height: 60vh;
+}
+.content-sh{
+	margin: auto;
+	max-width: 640px;
+	z-index: 1000;
+	//margin-top: 20vh;
+	padding-bottom: 5vh;
+	padding-top: 16vh;
+	position: relative;
+	min-height: 55vh;
+}
+
+.container-sh{
+	
+}
+
+.header-sh{
+	background-color: #673AB7;
+	max-height: 45vh;
+	height: 40vh;
+	position: absolute;
+	width: 100%;
+}
+
+.header-test{
+	width: 100%;
+	background-size: contain;
+
+}
+
+.header-txt{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding-top: 10vh;
+}
+
+/*
+@media only screen and (min-device-width : 900px) and (max-device-width : 1280px) {
+		
+}
+*/

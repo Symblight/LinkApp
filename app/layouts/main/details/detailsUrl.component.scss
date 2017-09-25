@@ -1,0 +1,34 @@
+.container-details{
+	display: flex;
+	background: #fff;
+	flex-direction: column;
+}
+
+.content-details{
+	padding-top: 10vh;
+	border-bottom: 1px solid #EEEEEE; 
+}
+
+.user-details{
+	text-align: center;
+}
+
+.longurl-d{
+		max-width: 50vw;
+		text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    color:#95989A;
+	    font-size: 18px;
+}
+
+.shorturl-d{
+	color:#37A2F3;
+	font-size: 21px;
+	cursor: pointer
+}
+
+.element-d{
+	margin-bottom: 2vh;
+	cursor: pointer
+}

@@ -1,0 +1,46 @@
+.form-sh{
+	display: flex;
+	background-color: #EC407A;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+
+.form-button{
+	border:0;
+	margin:0;
+	background-color: #37A2F3;
+	width: 100px;
+	height: 55px;
+	color: #fff;
+	outline: 0;
+}
+
+.form-button:hover{
+	background-color: #3293DC;
+}
+
+@media screen and(max-width: 480px){
+	.form-sh{
+		flex-direction: column;
+	}
+	.form-button{
+		width: 100%;
+	}
+	.input-sh{
+		height: 55px;
+	}
+}
+
+@media screen and(min-width: 480px){
+	.form-sh{
+		flex-direction: row;
+	}
+	.input-sh{
+		order:0;
+		flex-grow: 2;
+	}
+
+	.form-button{
+		order:1;
+	}
+}

@@ -1,0 +1,51 @@
+.notfound-container{
+	display: flex;
+	background: #fff;
+
+}
+.notfound-content{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10vh;
+	flex-direction:column;
+	text-align: center;
+}
+.img-notfound{
+	width: 52rem;
+    height: 40rem;
+}
+
+
+@media screen and(min-width:  920px)and (max-width : 1280px){
+	.img-notfound{
+		width: 52rem;
+		height:auto;
+	},
+	.notfound-content{
+		max-width: 70vw;
+	}
+}
+
+@media screen and(min-width:  680px) and (max-width: 920px){
+	.img-notfound{
+		width: 48rem;
+		height:auto;
+	},
+	 .notfound-content{
+		max-width: 70vw;
+	}
+}
+
+@media screen and(min-width:  480px) and (max-width: 680px){
+	.img-notfound{
+		width: 44rem;
+		height:auto;
+	}
+}
+
+@media screen and(max-width: 480px){
+	.img-notfound{
+		width: 38rem;
+		height:auto;
+	}
+}
